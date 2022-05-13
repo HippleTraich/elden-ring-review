@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    font-family: 'Special Elite', cursive;
+
+}
+
+.background {
+   background-image: url(images/background.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 100%;
+}
+
+h1 {
+    color: burlywood;
+    font-size: 75px;
+    text-align: center;
+}
+
+.maintext img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: burlywood;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    color: burlywood;
+    font-size: 30px;
+    text-align: center;
+}
+
+#erdtreepic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: burlywood;
+    text-align: center;
+    display: inline-block;
+    width: 70%;
+    margin-left: 200px;
+    
+}
+
+.hyperlink a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.hyperlink a:hover {
+    color:rgb(216, 12, 12);
+    font-size: 20px;
+}
+
+.nav a {
+    display: inline-block;
+}
+
+.nav {
+    background-color: rgba(245, 245, 245, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 32px;
+    padding: 20px;
+
+    
+
+}
+.nav a:hover {
+    color:rgb(216, 12, 12);
+    font-size: 40px;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    height: 11.5%;
+    width: auto;
+    position: fixed;
+}
+
+
+
+button {
+    background-color: rgba(222, 184, 135, 0.3);
+    border: none;
+    color:rgb(185, 3, 3);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22.5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(153, 153, 153, 0.5)  
+}
+
+.button:active {
+    transform: translateY(4px);
+}
+
+.button a {
+    text-decoration: none;
+}
+
+button:hover {
+    color: rgb(222, 184, 135);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(153, 153, 153, 0.5)
+}
+
+.radagonpic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mappic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.maleniapic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.radahnpic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.combatpic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menupic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cooppic img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
